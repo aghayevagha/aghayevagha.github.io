@@ -6,13 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agha Aghayev</title>
-    <!-- Font Awesome for social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<!-- Navigation Bar -->
 <nav>
     <div class="nav-container">
         <div class="logo">Agha Aghayev</div>
@@ -27,7 +25,7 @@
     </div>
 </nav>
 
-<!-- About Section -->
+
 <section id="about">
     <div class="section-container">
         <h2>About Me</h2>
@@ -53,7 +51,11 @@
                     <a href="https://www.linkedin.com/in/aghayevagha/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://github.com/aghayevagha" target="_blank"><i class="fa-brands fa-github"></i></a>
                     <a href="https://scholar.google.com/citations?user=jD7ukYoAAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i></a>
-                    <a href="data/cv.pdf" target="_blank"><i class="fa-solid fa-file-lines"></i></a>
+                    <a href="data/cv.pdf" target="_blank">
+                        <span style="font-weight:700; ">
+                            CV
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -62,7 +64,7 @@
 
 
 
-<!-- Experience Section -->
+
 <section id="experience">
     <div class="section-container">
         <h2>Experience</h2>
@@ -84,15 +86,11 @@
 </section>
 
 
-<!-- Publications Section -->
+
 <section id="publications">
     <div class="section-container">
         <h2>Publications</h2>
 
-        <!-- Optional CV link -->
-        
-
-        <!-- Publication 1 -->
         <div class="publication">
             <h3><a href="https://eprint.iacr.org/2025/1942" target="_blank">Privacy-Preserving Shape Matching with Leveled Homomorphic Encryption (preprint)</a></h3>
             <p class="citation">
@@ -104,7 +102,7 @@
             </p>
         </div>
 
-        <!-- Publication 2 -->
+
         <div class="publication">
             <h3><a href="https://eprint.iacr.org/2025/1929" target="_blank">Cryptanalysis of a Post-Quantum Signature Scheme Based on Number-Theoretic Assumptions(preprint)</a></h3>
             <p class="citation">
@@ -116,13 +114,39 @@
                 forgery attack without using signing oracle.
             </p>
         </div>
-        <p>Full publications available in my  <a href="https://scholar.google.com/citations?user=jD7ukYoAAAAJ&hl=en" target="_blank">scholar profile</a>.</p>
+        <div class="publication">
+        <h3><a href="https://ieeexplore.ieee.org/document/11219723" target="_blank">
+            Implementation of Lattice Trapdoors for Quantum-Proof Identity-Based Encryption
+        </a></h3>
+        <p class="citation">
+            <b>A. Aghayev</b>. (2025). 6th International Conference on Problems of Cybernetics and Informatics (PCI), Baku, Azerbaijan. IEEE.
+        </p>
+        <p class="abstract">
+            <b>Abstract:</b> This work presents the design and implementation of plain gadget-based lattice trapdoors for quantum-proof Identity-Based Encryption (IBE), using modern trapdoor sampling techniques and efficient lattice constructions. The paper evaluates practicality, implementation factors, and security considerations for post-quantum IBE.
+        </p>
+    </div>
+
+    <div class="publication">
+        <h3>
+            <a href="data/ReviewPaper.pdf" target="_blank">
+                A Review of Cryptanalysis Techniques for Lattice Cryptography using Machine Learning
+            </a>
+        </h3>
+        <p class="citation">
+            <b>A. Aghayev</b>, Imamverdiyev, Y., & Orujlu, O. (2025). Accepted to “Advancement and Innovation: Artificial Intelligence and Machine Learning” Conference (will be published soon).
+        </p>
+        <p class="abstract">
+            <b>Abstract:</b> This review surveys machine-learning-based cryptanalysis approaches targeting lattice problems like LWE and lattice reduction, highlights trends, limitations, and future research opportunities at the intersection of ML and post-quantum cryptography.
+        </p>
+    </div>
+
+     
     </div>
 </section>
 
 
 
-<!-- Teaching Section -->
+
 <section id="teaching">
   <div class="section-container">
     <h2>Teaching</h2>
@@ -156,18 +180,15 @@
 </section>
 
 
-<!-- Education Section -->
 <section id="education">
     <div class="section-container">
         <h2>Education</h2>
 
-        <!-- Master's -->
         <div class="education-item">
             <h3>Master of Science in Computer Science and Data Analytics (Diploma of Honours)</h3>
             <p><em>GWU, Washington DC, United States (GPA: 3.79 / 4) / ADA, Baku, Azerbaijan (GPA: 3.81 / 4)</em></p>
             <p>Sep. 2023 – Jun. 2025</p>
 
-            <!-- Thesis as part of Master's -->
             <div class="thesis">
 <p><strong>Thesis:</strong> Lattice-based Identity-based Encryption: Foundations, Constructions, and Implementation 
 <a href="data/Thesis Agha Aghayev.pdf" style="font-style: normal;">(pdf)</a></p>
@@ -175,7 +196,6 @@
             </div>
         </div>
 
-        <!-- Bachelor's -->
         <div class="education-item">
             <h3>Bachelor's Degree in Computer Science (Diploma of Honours)</h3>
             <p><em>ASOIU, Baku, Azerbaijan</em></p>
