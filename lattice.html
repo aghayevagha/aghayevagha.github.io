@@ -1,0 +1,70 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <div class="banner-image">
+    <!-- You can optionally add text here like: -->
+    <!-- <h1 style="color: white; font-size: 3em;">Lattice Cryptography</h1> -->
+</div>
+<head>
+    <meta name="google-site-verification" content="jt_toYpFEVeI2wV16w796-fYUW-8hhS20jse74bqklg" />
+    <meta name="author" content="Agha Aghayev">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agha Aghayev</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lat.css">
+
+
+</head>
+<body>
+
+<nav>
+    <div class="nav-container">
+        <div class="logo">Agha Aghayev</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+        </ul>
+        <button id="toggle-mode">🌙</button>
+    </div>
+</nav>
+<div class="content-container">
+    <h1>Lattice-Based Cryptography: A Student's Guide</h1>
+   <p> This page contains supplementary materials and a roadmap for students who aim 
+to advance in lattice-based cryptography. Background in cryptography and linear algebra is necessary, 
+especially understanding why constructions are secure require knowledge in provable security. </p>
+
+    <div class="roadmap-section">
+        <h2>Introduction</h2>
+        <p>Modern cryptography is built on mathematical hard problems, which are believed to be infeasable to solve
+with todays supercomputers efficiently. However, Peter Shor has introduced an efficient algorithm 
+which can solve integer factorization problem and discrete-log problem on any groups. Governments and big companies
+put billions of dollars for building scalable quantum computers, which might result in serious security
+problems for contemporary systems. This trend further motivates <i>Post-Quantum Cryotography (PQC)</i>, the set of 
+cryptographic constructions which are resistant against attacks by both classical and quantum algorithms.
+One of the prominent candidates for PQC is lattice-based cryptography.
+Generally, lattices are grid-like structures which span over <i>n</i> dimensional space, 
+and often work over efficient computations over matrices and vectors. The hard problems defined over lattices
+have attractive <b>worst-case security</b> guarantees, meaning that solving some average-case hard lattice problems 
+is as hard as solving related hard problems in their worst case.
+</p>
+    </div>
+    
+    <div class="roadmap-section">
+        <h2>Road Map</h2>
+        <p>
+From my experience, having good knowledge on linear algebra is super necessary. Hence, it is assumed that 
+you are familiar with </p>
+    </div>
+</div>
+
+
+
+<footer>
+    <p>&copy; 2025 Agha Aghayev. All rights reserved.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
